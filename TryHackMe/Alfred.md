@@ -1,5 +1,7 @@
 # Alfred
 
+Room: https://tryhackme.com/room/alfred
+
 ## Recon
 Since as the task description highlights, the server doesn't respond to ICMP requests, we need to add `-Pn` to nmap:   
 `sudo nmap -Pn -T5 -sV [IP]` which gives us the following:
